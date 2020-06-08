@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind&family=Montserrat&family=Poppins&family=Raleway:wght@400;500&display=swap');
+
+:root {
+    --Raleway-font: 'Raleway', sans-serif;
+    --Montserrat-font: 'Montserrat', sans-serif;
+    --Poppins-font: 'Poppins', sans-serif;
+    --Hind-font: 'Hind', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+   
+}
+div.container{
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    /*text-align: center;
+     */
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+div.container  div.section {
+    display: inline;
+}
+div.container h3 {
+    color: #d1c2c2d9;
+    line-height: 10px;
+    font-family: var(--Poppins-font);
+
+}
+div.container  div.section input[type=text] {
+    border: 0;
+    outline: 0;
+    width: 250px;
+    
+    height: 30px;
+    background: #fff;
+    opacity: 60%;
+    font-size: 17px;
+    color: rgb(19, 11, 9);
+    padding-left: 5px;
+    font-family: var(--Montserrat-font);
+    box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.4);
+}
+div.container  div.section .addbtn {
+    width: 50px;
+    height: 31px;
+    margin-left: -5px;
+    border: 0;
+    font-size: 14px;
+    outline: 0;
+    box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.4);
+    background: #ffffff;
+    color: rgb(100, 76, 76);
+    font-variant-caps: petite-caps;
+    font-family: var(--Raleway-font);
+}
+div.container  div.section ul {
+    padding-left: 0px;
+    text-align: center;
+}
+
+div.container  div.section ul li {
+   list-style-type: none;
+   display: flex;
+   justify-content: space-between;
+   font-family: var(--Montserrat-font);
+   background-color: #fff;
+   width: 300px;
+   height: auto;
+   font-size: 15.5px;
+   margin-top: 9px;
+   box-shadow: 0 0 4px rgba(0,0,0,0.2);
+   transition: 3s ease-in;
+   -webkit-transition: 3s ease-in;
+   -moz-transition: 3s ease-in;
+   -ms-transition: 3s ease-in;
+   -o-transition: 3s ease-in;
+}
+
+div.container  div.section ul li p  {
+    width: 180px;
+    height: auto;
+    text-align: left;
+    margin: 0;
+    transform: translateX(-5px);
+    padding:  7px;
+    padding-left: 0;
+    -webkit-transform: translateX(-5px);
+    -moz-transform: translateX(-5px);
+    -ms-transform: translateX(-5px);
+    -o-transform: translateX(-5px);
+}
+
+div.container  div.section ul li input[type=text] {
+    border: 0;
+    outline: 0;
+    width: 250px;
+    height: 33px;
+    background: rgb(246, 250, 247);
+    opacity: 80%;
+    color: #000000d9;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .13);
+}
+div.container  div.section ul li .icon {
+    width: 60px;
+    height: 33px;
+}
+
+div.container  div.section ul li img.done {
+    
+    -webkit-transform: translateX(2px);
+    -moz-transform: translateX(2px);
+    -ms-transform: translateX(2px);
+    -o-transform: translateX(2px);
+    color: rgb(221, 233, 233);
+}
+
+.deleted {
+    text-decoration: line-through;
+}
+
+div.container  div.section ul li .icon img.edit {
+    transform: translate(4px, 5px);
+    opacity: 0;
+}
+
+div.container  div.section ul li .icon img.delete {
+    width: 24px;
+    padding-left: 2px;
+    transform: translate(0px, 5px);
+    opacity: 0;
+    -webkit-transform: translate(0px, 5px);
+    -moz-transform: translate(0px, 5px);
+    -ms-transform: translate(0px, 5px);
+    -o-transform: translate(0px, 5px);
+} 
+div.container  div.section ul li:hover .icon img.edit,div.container  div.section ul li:hover .icon img.delete {
+    opacity: 1;
+}
+
+div.container  div.section ul li .icon img.ed:hover,  div.container  div.section ul li .icon img.delete:hover{
+   color:  #bed4fb;
+}
+
+/* @media screen and (max-width: 700px){
+    div.container{
+        font-size: 12px;
+        width: 270px;
+        height: 300px;
+    }
+    div.container  div.section input[type=text] {
+        border: 0;
+        outline: 0;
+        width: 190px;
+        height: 27px;  
+    }
+    div.container  div.section ul li{
+        width: 230px;
+        height: 27px;  
+    }
+}
+     */
